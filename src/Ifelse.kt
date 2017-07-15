@@ -8,6 +8,7 @@ fun Max(a:Int,b:Int): Int{
         return b
 }
 fun Max2(a:Int,b:Int)=if(a>b) a else b
+
 fun main(args : Array<String>){
     var a=35
     var b=44

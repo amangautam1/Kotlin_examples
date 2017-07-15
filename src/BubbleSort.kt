@@ -17,12 +17,12 @@ fun sort(arr:IntArray){
         }
 }
 fun main(args:Array<String>){
-    println("enter bal :")
-    var arr = intArrayOf(1,2,3,4,5)
-    for(i in 0..4)
+    //println("enter 5 Values :")
+    var arr = intArrayOf(52,21,33,41,53)
+    /*for(i in 0..4)
     {
         arr[i]= readLine()!!.toInt()
-    }
+    }*/
     sort(arr)
     println("output....\n")
     for(i in arr.indices) print(" ${arr[i]} ,")
