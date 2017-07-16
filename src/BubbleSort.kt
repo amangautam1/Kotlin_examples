@@ -1,4 +1,4 @@
-import java.util.*
+
 
 /**
  * Created by Aman gautam on 13-Jul-17.
@@ -17,12 +17,14 @@ fun sort(arr:IntArray){
         }
 }
 fun main(args:Array<String>){
-    //println("enter 5 Values :")
-    var arr = intArrayOf(52,21,33,41,53)
-    /*for(i in 0..4)
+    print("Enter size of array : ")
+    var n= readLine()!!.toInt()
+    var arr=IntArray(n)
+    println("enter values in array :")
+    for(i in 0..n-1)
     {
         arr[i]= readLine()!!.toInt()
-    }*/
+    }
     sort(arr)
     println("output....\n")
     for(i in arr.indices) print(" ${arr[i]} ,")
