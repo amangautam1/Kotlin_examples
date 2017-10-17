@@ -1,3 +1,5 @@
+package Basic
+
 /**
  * Created by Aman gautam on 12-Jul-17.
  */
@@ -14,6 +16,6 @@ fun  main(args : Array<String>){
 
     println("a=$a \nb=$b \nc=$c \nd=$d")
     println(s+t)
-   n.forEach{print(" $it")}
+    n.forEach{print(" $it")}
 
 }

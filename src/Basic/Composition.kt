@@ -1,3 +1,5 @@
+package Basic
+
 /**
  * Created by Aman gautam on 14-Jul-17.
  */
@@ -12,7 +14,7 @@ class Dog : Animal {
     override  fun doMove()="Hisses"
 }
 fun main(Args:Array<String>){
-    val ob=Dog()
+    val ob = Dog()
     print(" Sname sounf : ${ob.makeSound()}")
     print(" Sname move : ${ob.doMove()}")
     print(" Sname Age : ${ob.MAX_AGE}")

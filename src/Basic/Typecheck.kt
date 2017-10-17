@@ -1,7 +1,9 @@
+package Basic
+
 /**
  * Created by Aman gautam on 12-Jul-17.
  */
- fun getStrLength(str: Any):Int?{
+fun getStrLength(str: Any):Int?{
     if(str is String) {
         return str.length
     }
