@@ -8,11 +8,10 @@ fun  main(args : Array<String>){
     val b =10.5
     val c :Float
     c=100.14f
-    val n=1..100
+    val n = 1..10
     var s="aman"
     var t=" gautam "
     val d=a+b+c
-    var nullable:String?=null
 
     println("a=$a \nb=$b \nc=$c \nd=$d")
     println(s+t)

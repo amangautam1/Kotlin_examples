@@ -99,6 +99,29 @@ class TreeHelper {  // class to perform basic operations of a tree
         }
     }
 
+    fun BFS(x: Tree? = null) {
+        var d = 1;
+        while (x != null) {
+            printBFS(x, d);
+            d++;
+        }
+    }
+
+    fun printBFS(x: Tree? = null, d: Int) {
+        if (x == null) {
+            return;
+        }
+        if (d == 1) {
+            print(" ${x.value} ")
+
+        } else if (d > 1) {
+            printBFS(x.left, d - 1);
+            printBFS(x.right, d - 1);
+        }
+
+    }
+
+
 }
 
 fun main(arg: Array<String>) {
@@ -119,6 +142,7 @@ fun main(arg: Array<String>) {
             3 -> th.inOrder(th.root)
             4 -> th.preOrder(th.root)
             5 -> th.postOrder(th.root)
+            6 -> th.BFS(th.root)
 
         }
     }

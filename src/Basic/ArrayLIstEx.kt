@@ -14,9 +14,9 @@ fun main(arg: Array<String>) {
     println(array)
     for (i in array) {
         print("$i, ")
-        if (i.contains("arti")) {
-            println("found arti")
-        }
+        /* if (i.contains("arti")) {
+             println("found arti")
+         }*/
     }
 
 }

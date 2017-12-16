@@ -6,7 +6,7 @@ package Basic
 
 
 fun sum1(a: Int, b: Int): Unit {   //or//  fun Basic.sum1(a :Int,b:Int) {
-    print("Basic.sum of $a and $b is ${a + b}")
+    print("sum of $a and $b is ${a + b}")
 }
 fun main(args : Array<String>){
     sum1(10, 109)
