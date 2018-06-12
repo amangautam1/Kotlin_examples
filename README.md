@@ -1,4 +1,4 @@
-# Kotlin
+# A set of programs and algorithms written in Kotlin
 kotlin is a new programming language developed by <a href="https://www.jetbrains.com/">JetBrains</a> and is now official language for <a href="https://www.android.com/">android</a> development.
 
 <b>Here is the collection of programs designed using kotlin.</b><br>
